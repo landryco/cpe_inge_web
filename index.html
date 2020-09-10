@@ -9,13 +9,25 @@
     <title>Curriculum Vitae de Landry COTET</title>
 </head>
 <body>
+    <!--NAVIGATION-->
+    <nav class="crumbs">
+        <ol>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+        </ol>
+    </nav>
+
     <!--PRESENTATION-->
     <header>
-        <img src="img/me.jpg" width="250" alt="Une Image de Moi" />
+        <map name="logo">
+            <area shape="rect" coords="0,0 200,200" href="https://cpe.fr" target="_blank"/>
+            <area shape="default" />
+        </map>
+        <img usemap="#logo" src="img/me.jpg" width="250" alt="Une Image de Moi" />
         <h1>COTET Landry</h1>
         <p>
             Age: 22<br>
-            Apprenti Ingénieur CyberSécurité<br/><br/>
+            <strong>Apprenti Ingénieur CyberSécurité</strong><br/><br/>
             1 rue de Lyon 69000<br/>
             <a href="mailto:landry.cotet@cpe.fr">landry.cotet@cpe.fr</a>
         </p>
@@ -72,10 +84,7 @@
 
     <!--FOOTER-->
     <footer>
-        <ul>
-            <li><a href="contact.html">Contact</a></li>
-            <li><a href="agenda.html">Agenda</a></li>
-        </ul>
+        Projet sous licence GNU
     </footer>
 </body>
 </html>
