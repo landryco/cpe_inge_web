@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Author" content="LC" />
+    <meta name="Keywords" content="Web,HTML5" />
+    <meta name="Description" content="Mon CV en HTML" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Me contacter</title>
+</head>
+<body>
+    <map name="logo">
+        <area shape="rect" coords="0,0 200,200" href="https://cpe.fr" target="_blank"/>
+        <area shape="default" />
+    </map>
+    <!--NAVIGATION-->
+    <nav>
+        <img id="logo" usemap="#logo" src="img/cpe.jpg" width="250" alt="Une Image de Moi" />
+        <div>
+            <a href="index.html">Index</a>
+        </div>
+    </nav>
+
+    <!--Formation-->
+    <section>
+        <h1>Me contacter</h1>
+        <fieldset>
+            <legend>Vos informations</legend>
+            Votre E-Mail : <input type="email" required/><br/>
+            Votre Nom et Prénom : <input type="text" required/>
+        </fieldset>
+        <fieldset>
+            <legend>Votre message :</legend>
+            <textarea cols="200" rows="5" required></textarea>
+        </fieldset>
+        <input type="button" value="Envoyer">
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <p>Projet sous licence GNU</p>
+    </footer>
+
+</body>
+</html>

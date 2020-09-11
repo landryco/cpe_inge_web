@@ -1,0 +1,71 @@
+body {
+    font-family: "Gill Sans", sans-serif;
+    background-color: aliceblue;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav div {
+    display: inline-block;
+    margin-right: 0;
+
+}
+
+nav div a {
+    color: black;
+    text-decoration: none;
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+nav div a:hover {
+    font-weight: bold;
+}
+
+#logo {
+    width: 100px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    margin-top: 25px;
+    padding: 5px;
+    padding-left: 25px;
+}
+
+section {
+    border: black 1px solid;
+    margin-top: 25px;
+    padding: 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section hr {
+    border: 1px dotted;
+}
+
+table {
+    border: black 1px solid;
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+table th {
+    border: black 1px dotted;
+    width: auto;
+}
+
+table td {
+    border: black 1px dotted;
+    width: auto;
+}
+
+footer p {
+    text-align: center;
+}
